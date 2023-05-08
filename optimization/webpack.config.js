@@ -26,14 +26,12 @@ module.exports = {
                     test: /[\\/]node_modules[\\/](lodash)/,
                     priority: -10,
                     chunks: 'all',
-                    reuseExistingChunk: true,
                 },
                 vendors: {
                     name: 'chunk-vendors',
                     test: /[\\/]node_modules[\\/]/,
                     priority: -20,
                     chunks: 'all',
-                    reuseExistingChunk: true,
                   },
           
             },
