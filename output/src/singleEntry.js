@@ -6,9 +6,11 @@ function component() {
     element.innerHTML = '单入口';
 
     /* 动态引入文件 */
-    // import('./chunkname').then(app => {
-    //     app.chunckFile();
-    // })
+    // element.onclick = function() {
+    //     import(/* webpackChunkName: 'chunkname' */'./chunkname').then(app => {
+    //         app.chunckFile();
+    //     })
+    // }
 
     /* 引入图片 */
     // const element2 = document.createElement('img');
