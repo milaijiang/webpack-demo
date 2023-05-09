@@ -50,14 +50,14 @@ module.exports = {
                                     {
                                         // useBuiltIns: false,
 
-                                        // useBuiltIns: 'entry',
-                                        // corejs: '2',
+                                        useBuiltIns: 'entry',
+                                        corejs: '3',
 
                                         // useBuiltIns: 'usage',
                                         // corejs: { version: '3.13.0', proposals: true },
-                                        // targets: {
-                                        //     chrome: '70'
-                                        // },
+                                        targets: {
+                                            chrome: '60'
+                                        },
                                     }
                                 ]
                             ],

@@ -3,6 +3,8 @@
 // import './stylecss.css'
 // import './styleless.less'
 
+import 'core-js';
+
 function component() {
     const element = document.createElement('div');
 
